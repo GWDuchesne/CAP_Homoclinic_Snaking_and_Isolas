@@ -139,7 +139,6 @@ for i = 1:19
 end
 
 # SH Isolas
-
 dir_name = joinpath(@__DIR__, "Data", "SH_Isolas", "PROVEN","Data_SH_Isolas_Grid__proof_")
 printstyled("Verifying Smothness for SH Isolas\n"; color = :blue)
 for i = 1:19
